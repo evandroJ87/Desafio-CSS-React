@@ -1,13 +1,15 @@
-.cars{
-  margin: 0px;
-  padding: 0px;
+body {
+  margin: 0;
+  padding: 0;
   font-family: Verdana;
-  color: rgb(170, 57, 22);
+  text-align: center;
 }
 
-.listCars{
-  margin: 0px;
-  padding: 0px;
-  font-family: Helvetica;
-  color: black;
+.car-container{
+  display: flex;
+  justify-content: center;
+}
+
+.car-container div{
+  margin-top: 50px;
 }
